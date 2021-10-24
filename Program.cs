@@ -6,7 +6,6 @@ namespace NumberGuesser
     // Main Class
     class Program
     {
-        // Entry Point Method
         static void Main(string[] args)
         {
             GetAppInfo(); // Run GetAppInfo Function
@@ -15,10 +14,6 @@ namespace NumberGuesser
 
             while (true)
             {
-
-                // Init Correct Number
-                //int correctNumber = 7;
-
                 // Create a new Random Object
                 Random random = new Random();
 
